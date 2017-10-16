@@ -1,0 +1,26 @@
+/*# sourceMappingURL=style.scss.map */
+body {
+  font-size: 15px !important; }
+
+nav {
+  font-family: 'Montserrat', sans-serif; }
+  nav .navbar-brand img {
+    width: 120px; }
+  nav .navbar-nav {
+    margin: auto; }
+  nav .nav-link {
+    margin-right: 2rem;
+    color: #FFFFFF !important; }
+  nav .active > .nav-link {
+    color: #8799A3 !important; }
+  nav .btn {
+    color: #FFFF00;
+    border-radius: 1.25rem;
+    border: 1px solid #FFFF00;
+    padding: 8px 30px;
+    font-weight: 700; }
+
+header {
+  background-image: url("assets/bg-header.jpg"); }
+
+/*# sourceMappingURL=style.css.map */
