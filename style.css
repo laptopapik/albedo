@@ -2,6 +2,12 @@
 body {
   font-size: 15px !important; }
 
+header {
+  background-image: url("assets/bg-header.jpg");
+  background-position-x: -140px;
+  background-position-y: -110px;
+  background-size: 150%; }
+
 nav {
   font-family: 'Montserrat', sans-serif; }
   nav .navbar-brand img {
@@ -10,7 +16,8 @@ nav {
     margin: auto; }
   nav .nav-link {
     margin-right: 2rem;
-    color: #FFFFFF !important; }
+    color: #FFFFFF !important;
+    font-size: 16px !important; }
   nav .active > .nav-link {
     color: #8799A3 !important; }
   nav .btn {
@@ -18,9 +25,42 @@ nav {
     border-radius: 1.25rem;
     border: 1px solid #FFFF00;
     padding: 8px 30px;
-    font-weight: 700; }
+    font-weight: 600;
+    font-size: 13px; }
 
-header {
-  background-image: url("assets/bg-header.jpg"); }
+.header {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 16px; }
+  .header .col-6 .title {
+    font-family: 'Leckerli One', cursive;
+    font-size: 25px;
+    margin-top: 200px; }
+  .header .col-6 h1 {
+    font-weight: 900;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px; }
+    .header .col-6 h1 .Highling {
+      color: #0081FF; }
+  .header .col-6 h2 {
+    font-weight: 200px;
+    margin-top: 15px; }
+  .header .col-6 p {
+    color: #636363;
+    width: 400px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px; }
+  .header .col-6 .btn {
+    border-radius: 1.45rem;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 15px 30px;
+    background-color: #2b2b2b;
+    margin-bottom: 200px; }
+
+.opacity {
+  background-color: rgba(0, 0, 0, 0.5); }
 
 /*# sourceMappingURL=style.css.map */
