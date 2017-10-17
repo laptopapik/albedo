@@ -78,11 +78,28 @@ nav {
     line-height: 45px; }
   .section .section-about .col-lg-5 p {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 17px;
     margin-top: 40px; }
   .section .container-fluid {
-    background-color: #0074e7; }
+    background-color: #1378dc; }
   .section .section-support img {
-    width: 60px; }
+    width: 50px; }
+  .section .section-support .media-body {
+    width: 80px;
+    padding: 0 30px 0 0; }
+  .section .section-support .mt-0 {
+    font-weight: 600 !important;
+    text-transform: capitalize; }
+  .section .contact {
+    font-size: 16px; }
+    .section .contact img {
+      width: 10px;
+      margin: 0px 5px; }
+    .section .contact .fa {
+      font-size: 20px;
+      margin: 0 10px;
+      color: rgba(28, 207, 228, 0.74); }
+    .section .contact .active {
+      color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
