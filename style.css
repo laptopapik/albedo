@@ -32,27 +32,27 @@ nav {
   color: white;
   font-family: 'Montserrat', sans-serif;
   padding: 16px; }
-  .header .col-6 .title {
+  .header .col-lg-6 .title {
     font-family: 'Leckerli One', cursive;
     font-size: 25px;
     margin-top: 200px; }
-  .header .col-6 h1 {
+  .header .col-lg-6 h1 {
     font-weight: 900;
     font-size: 45px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 20px; }
-    .header .col-6 h1 .Highling {
+    .header .col-lg-6 h1 .Highling {
       color: #0081FF; }
-  .header .col-6 h2 {
+  .header .col-lg-6 h2 {
     font-weight: 200px;
     margin-top: 15px; }
-  .header .col-6 p {
+  .header .col-lg-6 p {
     color: #636363;
     width: 400px;
     margin-top: 20px;
     font-weight: 400;
     font-size: 18px; }
-  .header .col-6 .btn {
+  .header .col-lg-6 .btn {
     border-radius: 1.45rem;
     font-size: 13px;
     font-weight: 600;
