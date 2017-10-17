@@ -1,12 +1,17 @@
 /*# sourceMappingURL=style.scss.map */
 body {
-  font-size: 15px !important; }
+  font-size: 15px !important;
+  font-family: 'Montserrat', sans-serif; }
 
 header {
   background-image: url("assets/bg-header.jpg");
   background-position-x: -140px;
   background-position-y: -110px;
   background-size: 150%; }
+
+.title {
+  font-family: 'Leckerli One', cursive;
+  font-size: 25px; }
 
 nav {
   font-family: 'Montserrat', sans-serif; }
@@ -33,8 +38,6 @@ nav {
   font-family: 'Montserrat', sans-serif;
   padding: 16px; }
   .header .col-lg-6 .title {
-    font-family: 'Leckerli One', cursive;
-    font-size: 25px;
     margin-top: 200px; }
   .header .col-lg-6 h1 {
     font-weight: 900;
@@ -62,5 +65,24 @@ nav {
 
 .opacity {
   background-color: rgba(0, 0, 0, 0.5); }
+
+.section {
+  color: #FFFFFF;
+  background-color: #0081FF; }
+  .section .section-about .col-lg-12 {
+    margin-top: 100px; }
+  .section .section-about .col-lg-5 h2 {
+    font-size: 35px;
+    font-weight: 900;
+    margin-top: 20px;
+    line-height: 45px; }
+  .section .section-about .col-lg-5 p {
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 40px; }
+  .section .container-fluid {
+    background-color: #0074e7; }
+  .section .section-support img {
+    width: 60px; }
 
 /*# sourceMappingURL=style.css.map */
