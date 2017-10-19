@@ -13,6 +13,12 @@ header {
   font-family: 'Leckerli One', cursive;
   font-size: 25px; }
 
+.title-desc {
+  font-size: 35px;
+  font-weight: 900;
+  margin-top: 20px;
+  line-height: 45px; }
+
 nav {
   font-family: 'Montserrat', sans-serif; }
   nav .navbar-brand img {
@@ -71,11 +77,6 @@ nav {
   background-color: #0081FF; }
   .section .section-about .col-lg-12 {
     margin-top: 100px; }
-  .section .section-about .col-lg-5 h2 {
-    font-size: 35px;
-    font-weight: 900;
-    margin-top: 20px;
-    line-height: 45px; }
   .section .section-about .col-lg-5 p {
     font-weight: 500;
     font-size: 17px;
@@ -101,5 +102,71 @@ nav {
       color: rgba(28, 207, 228, 0.74); }
     .section .contact .active {
       color: #fff; }
+
+/* ========= PORTOFOLIO ======= */
+.portofolio .btn {
+  padding: 15px 45px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 30px; }
+
+.portofolio-img div {
+  padding: 0;
+  overflow: hidden; }
+.portofolio-img img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto; }
+.portofolio-img .r1 {
+  height: 400px; }
+  .portofolio-img .r1 img {
+    transform: scale(1.7); }
+.portofolio-img .r2 {
+  height: 250px; }
+  .portofolio-img .r2 img {
+    transform: scale(1.3); }
+.portofolio-img .r3 img {
+  transform: scale(2);
+  position: absolute;
+  top: 23%; }
+.portofolio-img .image3 {
+  transform: scale(2.5);
+  left: 100px; }
+.portofolio-img .image4 img {
+  top: 40px;
+  position: absolute; }
+.portofolio-img .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease; }
+.portofolio-img .text {
+  white-space: nowrap;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+  .portofolio-img .text .overlay-title {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #7c8890; }
+  .portofolio-img .text .overlay-desc {
+    font-size: 15px;
+    font-weight: 600; }
+  .portofolio-img .text .overlay-icon img {
+    width: 15px;
+    margin: 5px; }
+.portofolio-img .overlay-container:hover .overlay {
+  height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
